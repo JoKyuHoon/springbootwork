@@ -9,7 +9,7 @@ import com.study.springboot.multi.Config;
 import com.study.springboot.multi.Person;
 import com.study.springboot.multi.Printer;
 
-// @SpringBootApplication  =>  이주석이 있으면 자동으로 실행 되면서 웹으로 실행됨
+// @SpringBootApplication  =>  이 주석이 있으면 자동으로 실행 되면서 웹으로 실행됨
 public class Ex01JavaDiApplication {
 
 	public static void main(String[] args) {
