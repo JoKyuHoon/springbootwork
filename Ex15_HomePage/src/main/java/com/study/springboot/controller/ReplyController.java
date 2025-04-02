@@ -22,7 +22,7 @@ public class ReplyController {
 		System.out.println("댓글 내용 : " + reply.getContent());
 		Reply r = replyService.rInsert(reply);
 		if(r != null) {
-			return replyService.selectAll(reply.getRefBno());
+			return replyService.seletAll(reply.getRefBno());
 		} else {
 			return null;
 		}

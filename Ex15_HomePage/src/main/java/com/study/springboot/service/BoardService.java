@@ -12,6 +12,7 @@ import com.study.springboot.repository.BoardRepository;
 
 @Service
 public class BoardService {
+	
 	@Autowired
 	BoardRepository boardRepository;
 

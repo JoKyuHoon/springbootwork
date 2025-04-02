@@ -14,7 +14,7 @@ public class ReplyService {
 	@Autowired
 	ReplyRepository replyRepository;
 
-	public List<Reply> selectAll(Long bno) {
+	public List<Reply> seletAll(Long bno) {
 		return replyRepository.findByRefBnoOrderByRnoDesc(bno);
 	}
 

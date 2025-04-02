@@ -8,7 +8,8 @@ import org.springframework.stereotype.Repository;
 import com.study.springboot.domain.Reply;
 
 @Repository
-public interface ReplyRepository extends JpaRepository<Reply, Long> {
-	
+public interface ReplyRepository extends JpaRepository<Reply, Long>{
+
 	List<Reply> findByRefBnoOrderByRnoDesc(Long bno);
+
 }
