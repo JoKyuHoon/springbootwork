@@ -25,5 +25,5 @@ public class Member {
 	
 	@Column(name="create_date")
 	private LocalDate createDate;
-	
+
 }
